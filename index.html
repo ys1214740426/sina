@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机新浪网</title>
+    <link rel="shortcut icon" type="image/x-icon" href="//mjs.sinaimg.cn/wap/module/base/img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font-face.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="hd">
+        <!-- logo -->
+        <a href="#" class="hd-logo">
+            <img src="https://n.sinaimg.cn/default/cf7470f9/20200121/sina2020.svg" alt="">
+        </a>
+        <!-- 版本切换模块 -->
+        <nav class="hd-cut">
+            <a href="javascript:;">标准版</a>
+            <a href="javascript:;">智能版</a>
+        </nav>
+        <!-- 图标 -->
+        <nav class="hd-user">
+            <a href="#" class="icon-search iconfont"></a>
+            <a href="#" class="icon-login iconfont"></a>
+            <a href="#" class="icon-settings iconfont"></a>
+        </nav>
+        <!-- 导航 -->
+        <!-- 内容 -->
+    <section class="sec-main">
+        <aside class="sec-txt">
+            <h2 class="sec-tit">疫情防控期间 印度电视收视创历史记录</h2>
+            <span class="sec-icon"></span>
+        </aside>
+        <figure class="sec-img">
+            <img src="https://k.sinaimg.cn/n/default/transform/266/w640h426/20200410/eac0-iryninx0994054.png/w200h134f1t0l50q90c55.jpg" alt="">
+        </figure> 
+    </section>
+
+    </header>
+    <!-- 动态判断rem的大小 -->
+    <script type="text/javascript">
+        function refreshRem() {
+        var desW = 750,
+        winW = document.documentElement.clientWidth,
+        ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+     </script>
+
+</body>
+</html>
